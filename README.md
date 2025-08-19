@@ -1,4 +1,3 @@
-# Challenge-Telecom-X-an-lise-de-evas-o-de-clientes
 # Telecom X – Análise de Churn
 
 Este projeto faz parte do desafio de Data Science da Alura/ONE e tem como objetivo analisar os fatores que levam clientes da **Telecom X** a cancelar seus serviços.  
