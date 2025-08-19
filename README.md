@@ -1,27 +1,16 @@
-# Telecom X – Análise de Churn
+# 📊 Telecom X – Desafio 1: Tratamento e Análise
 
-Este projeto faz parte do desafio de Data Science da Alura/ONE e tem como objetivo analisar os fatores que levam clientes da **Telecom X** a cancelar seus serviços.  
+Este projeto corresponde à primeira etapa do desafio da Alura/ONE.  
+O objetivo foi **tratar e analisar** os dados de clientes da Telecom X para entender os fatores relacionados ao churn (cancelamento).  
 
-## O que foi feito
-- Extração dos dados em JSON.  
-- Transformação: padronização de colunas, limpeza de duplicados e criação de novas variáveis.  
-- Análise exploratória com estatísticas e gráficos.  
-- Relatório final com os principais insights.  
+### O que foi feito
+- Expansão do JSON bruto em colunas planas.  
+- Padronização dos nomes das variáveis.  
+- Conversão de colunas numéricas.  
+- Criação da coluna `contas_diarias` (mensalidade / 30).  
+- Análise exploratória com gráficos.  
 
-## Principais conclusões
-- Contratos mensais concentram a maior parte dos cancelamentos.  
-- Clientes novos (tenure baixo) cancelam mais.  
-- Mensalidades altas aumentam a chance de churn.  
-- Métodos de pagamento automáticos ajudam a reduzir a evasão.  
-
-##  Tecnologias
-Python, Pandas, Matplotlib e Google Colab.  
-
-##  Como usar
-1. Abra o notebook `TelecomX.ipynb` no Google Colab.  
-2. Faça upload do arquivo `TelecomX_Data.json`.  
-3. Execute as células na ordem para reproduzir a análise.  
-
----
-
-O relatório completo com gráficos e recomendações está disponível dentro do notebook.  
+### Principais descobertas
+- Contratos mensais concentram a maior taxa de churn.  
+- Clientes novos cancelam mais.  
+- Mensalidades altas estão ligadas a maior evasão.  
